@@ -1,0 +1,79 @@
+body, .default{
+    background-color: #5e4b55;
+    line-height: 1.6em;
+    color: #93bd9a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    /* em es en pulgadas */
+
+h2{
+    color:#93bd9a;
+}
+
+#title{
+    text-align: center;
+}
+.contenedor, .default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columna{
+    color: black;
+    background: #7c917f;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+table{
+    background-color: #3d1c33;
+    margin: 30px;
+    border: #210518 3px solid;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#enfasis-columna td{
+    padding: 5px 15px;
+    border-top: 1px dashed #241c36;
+}
+
+#enfasis-columna tr:hover td{
+    color: rgb(13, 18, 94);
+    background: #17a18f;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+input, textarea, select{
+    border-radius: 5px;
+    border: 2px solid #7c917f;
+    color: #93bd9a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+input:hover, textarea:hover, select:hover{
+    color: rgb(13, 18, 94);
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: #7c917f;
+    color:aliceblue;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: #3d1c33;
+    color:aliceblue;
+}
+
+/* #btnLimpiar{
+    margin: 50px;
+}
+
+#btnEnviar{
+    padding-right: 20px;
+} */
+
+/* 1. Investigar los terminos de medida en CSS, em, px, etc.
+2. como colocar un estilo al cursor, cual es la propiedad para cambiar el estilo de este */

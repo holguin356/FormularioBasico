@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- es un tipo de documento html -->
+<html lang="en">
+  <head>
+    <!-- configuraciones de nuestras paginas, como vinculos con css, js,  -->
+    <meta charset="UTF-8" />
+    <!-- utf-8 reconoce la ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- configuracion global de la pagina, y ancho, para que se acople de la mejor manera en initial scale 1.0 -->
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <!-- todo el codigo que se puede por la pagìna -->
+    <div>
+      <form class="contenedor">
+        <table width="600" id="enfasis-columna">
+          <tr>
+            <!-- table row es tr -->
+            <td colspan="2" id="title"><h2>Formulario de registro</h2></td>
+            <!-- colspan seria la cantidad de columnas que se cargan -->
+            <!-- table data es td -->
+          </tr>
+          <tr>
+            <td class="columna">Usuario: (*)</td>
+            <td>
+              <input type="text" placeholder="Ingrese el usuario" />
+              <!-- INPUT PUEDE TRANSFORMARSE EN CUALQUIER MEDIO DE INFORMACION TEXTO, FECHA, RADIO 
+                 placeholder texto informativo desde la casilla input-->
+            </td>
+          </tr>
+          <tr>
+            <td class="columna">Contraseña: (*)</td>
+            <td>
+              <input type="password" placeholder="Ingrese la contraseña" />
+            </td>
+          </tr>
+          <tr>
+            <td class="columna">Tecnologias de internet: (*)</td>
+            <td>
+              <input type="checkbox" value="java" name="tecnologia" /> Java
+              &nbsp;
+              <input type="checkbox" value="javaScript" name="tecnologia" />
+              JavaScript &nbsp;
+              <input type="checkbox" value="cChar" name="tecnologia" /> C#
+              &nbsp;
+              <br />
+              <input type="checkbox" value="puntoNet" name="tecnologia" /> .Net
+              &nbsp;
+              <!-- &COPY; caracteres especiales -->
+              <input type="checkbox" value="python" name="tecnologia" /> Python
+            </td>
+          </tr>
+          <tr>
+            <td class="columna">Genero: (*)</td>
+            <td>
+              <input type="radio" value="hombre" name="genero" /> Hombre
+              &nbsp;&nbsp;&nbsp;
+              <input type="radio" value="mujer" name="genero" /> Mujer
+            </td>
+          </tr>
+
+          <tr>
+            <td class="columna">Ocupación: (*)</td>
+            <td>
+              <select name="ocupacion">
+                <option value="">--Seleccionar--</option>
+                <option value="1">Profesor</option>
+                <option value="2">Arquitecto</option>
+                <option value="3">Desarrollador</option>
+                <option value="4">Jubilado</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="columna">Comentarios:</td>
+            <td>
+              <textarea name="comentarios" cols="30" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="default">
+              <input class="input" type="reset" value="Limpiar" />
+            </td>
+            <td>
+              <input class="input" type="submit" value="Enviar" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <!-- hay varias formas desde el css de poner estilo, la primera seria con la propiedad class, segunda id, tercera llamando a la etiqueta -->
+  </body>
+<!-- 
+  <button id="btnEnviar">
+    Enviar
+  </button>
+<button id="btnLimpiar">Limpiar</button>   -->
+  <!-- COMANDOS PARA VISUAL ESTUDIO CODE 
+ALT CLICK PARA EDITAR AL MISMO TIEMPO
+ALT SHIF HACIA ABAJO CLONAR LINEA
+ALT SHIF INICIO TODA LA LINEA  
+SI SE DESEA DEJAR UN CODIGO EN OTRA PARTE SE PUEDE DEJAR ALT APRETADO Y DESPLAZAR HACIA ARRIBA O HACIA ABAJO
+ctr espacio sirve para solicitar ayuda para complementar -->
+</html>
